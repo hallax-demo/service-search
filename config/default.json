@@ -1,0 +1,32 @@
+{
+  "port": 4003,
+  "host": "cxcloud.hallavo.com",
+  "debug": {
+    "logLevel": "debug"
+  },
+
+"commerceTools": {
+  "authHost": "https://auth.sphere.io",
+  "apiHost": "https://api.sphere.io",
+  "projectKey": "tieto-sample-data-2",
+  "admin": {
+    "clientId": "kzV0t-jU03DnIY7NGIrRC_Je",
+    "clientSecret": "uI4lwLOxy78SG_qIyuH82x89cPzuLZ94"
+  },
+  "user": {
+    "clientId": "kzV0t-jU03DnIY7NGIrRC_Je",
+    "clientSecret": "uI4lwLOxy78SG_qIyuH82x89cPzuLZ94"
+  }
+},
+"contentful": {
+  "sdkConfig": {
+    "space": "2kckpqalk0gn",
+    "accessToken": "03881bdceb39e676c118343143af2a1a8253c7c88dafa79f4608b0f48c007fde"
+  }
+},
+"cognito": {
+  "userPoolId": "eu-west-1_9RgdWJ5c8",
+  "clientId": "1iu22s625ba69nqi0n5t82a8f9",
+  "encryptionKey": "6BlaMtG?j_&;,m;97:~yAF+c8$3Mmh+y"
+}
+}

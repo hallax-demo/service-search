@@ -1,0 +1,19 @@
+{
+  "swagger": {
+    "basePath": "/api/service-search/v1",
+    "outputDirectory": "./dist",
+    "entryFile": "./src/index.ts",
+    "name": "service-search",
+    "description": "A CXCloud Microservice",
+    "license": "ISC",
+    "produces": ["application/json"],
+    "version": "0.2.0",
+    "securityDefinitions": {
+      "token": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  }
+}
